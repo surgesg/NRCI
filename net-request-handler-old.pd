@@ -1,0 +1,230 @@
+#N canvas 121 32 707 472 12;
+#X text 63 117 adam;
+#X text 63 143 brent;
+#X text 63 169 chris;
+#X text 64 198 dale;
+#X text 63 226 david;
+#X text 63 278 greg;
+#X text 63 332 kevin;
+#X text 63 360 steve;
+#X obj 102 115 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X text 62 304 jerod;
+#X text 138 92 a;
+#X text 164 92 d;
+#X obj 102 142 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 169 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 196 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 223 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 250 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 277 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 304 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 331 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 358 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 129 115 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 129 142 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 129 169 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 129 196 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 129 223 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 129 250 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 129 277 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 129 304 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 129 331 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 129 358 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 156 115 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 156 142 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 156 169 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 156 196 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 156 223 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 156 250 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 156 277 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 156 304 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 156 331 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 156 358 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 183 115 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 183 142 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 183 169 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 183 196 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 183 223 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 183 250 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 183 277 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 183 304 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 183 331 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 183 358 tgl 25 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X text 63 251 glenn;
+#X text 109 92 p;
+#X text 191 92 r;
+#X obj 409 244 iem_prepend;
+#X obj 483 211 r \$0-constructTwo;
+#X obj 409 318 s milo-sendOSC;
+#X obj 217 140 milo-request-construct 0;
+#X obj 218 167 milo-request-construct 1;
+#X obj 218 194 milo-request-construct 2;
+#X obj 219 221 milo-request-construct 3;
+#X obj 219 248 milo-request-construct 4;
+#X obj 219 275 milo-request-construct 5;
+#X obj 218 302 milo-request-construct 6;
+#X obj 218 329 milo-request-construct 7;
+#X obj 218 356 milo-request-construct 8;
+#X obj 218 383 milo-request-construct 9;
+#X obj 409 186 r send;
+#X text 56 14 milo-request-handler.pd;
+#X text 56 29 v 0.2 modified 1.3.07;
+#X text 55 44 greg surges;
+#N canvas 181 37 417 545 make-address 0;
+#X obj 142 96 select 0 1 2 3 4 5 6 7 8 9;
+#X obj 68 461 iem_prepend;
+#X msg 142 122 /adam;
+#X msg 157 146 /brent;
+#X msg 172 170 /chris;
+#X msg 187 190 /dale;
+#X msg 203 211 /david;
+#X msg 233 252 /greg;
+#X msg 264 297 /kevin;
+#X msg 279 318 /steve;
+#X obj 68 489 s \$0-constructOne;
+#X msg 218 230 /glenn;
+#X obj 68 352 symbol \$1;
+#X obj 68 376 unsymbol;
+#X obj 142 428 iem_prepend;
+#X msg 216 396 send;
+#X obj 68 34 r name;
+#X msg 249 275 /jerod;
+#X obj 68 57 t b b f;
+#X text 194 490 [send /target/requester];
+#X connect 0 0 2 0;
+#X connect 0 1 3 0;
+#X connect 0 2 4 0;
+#X connect 0 3 5 0;
+#X connect 0 4 6 0;
+#X connect 0 5 11 0;
+#X connect 0 6 7 0;
+#X connect 0 7 17 0;
+#X connect 0 8 8 0;
+#X connect 0 9 9 0;
+#X connect 1 0 10 0;
+#X connect 2 0 14 0;
+#X connect 3 0 14 0;
+#X connect 4 0 14 0;
+#X connect 5 0 14 0;
+#X connect 6 0 14 0;
+#X connect 7 0 14 0;
+#X connect 8 0 14 0;
+#X connect 9 0 14 0;
+#X connect 11 0 14 0;
+#X connect 12 0 13 0;
+#X connect 13 0 1 0;
+#X connect 14 0 1 1;
+#X connect 15 0 14 1;
+#X connect 16 0 18 0;
+#X connect 17 0 14 0;
+#X connect 18 0 12 0;
+#X connect 18 1 15 0;
+#X connect 18 2 0 0;
+#X restore 408 140 pd make-address;
+#N canvas 157 48 450 300 strcat-type 0;
+#X obj 45 59 select 0 1 2 3;
+#X msg 45 82 /milo-pitch-report;
+#X msg 68 109 /milo-amp-report;
+#X msg 92 132 /milo-duration-report;
+#X msg 116 157 /milo-rhythm-report;
+#X obj 45 219 iem_prepend;
+#X obj 119 189 r \$0-constructOne;
+#X obj 45 244 s \$0-constructTwo;
+#X obj 45 34 r type;
+#X text 171 243 [send /target/requester/type];
+#X connect 0 0 1 0;
+#X connect 0 1 2 0;
+#X connect 0 2 3 0;
+#X connect 0 3 4 0;
+#X connect 1 0 5 0;
+#X connect 2 0 5 0;
+#X connect 3 0 5 0;
+#X connect 4 0 5 0;
+#X connect 5 0 7 0;
+#X connect 6 0 5 1;
+#X connect 8 0 0 0;
+#X restore 408 163 pd strcat-type;
+#X connect 8 0 57 0;
+#X connect 12 0 58 0;
+#X connect 13 0 59 0;
+#X connect 14 0 60 0;
+#X connect 15 0 61 0;
+#X connect 16 0 62 0;
+#X connect 17 0 63 0;
+#X connect 18 0 64 0;
+#X connect 19 0 65 0;
+#X connect 20 0 66 0;
+#X connect 21 0 57 1;
+#X connect 22 0 58 1;
+#X connect 23 0 59 1;
+#X connect 24 0 60 1;
+#X connect 25 0 61 1;
+#X connect 26 0 62 1;
+#X connect 27 0 63 1;
+#X connect 28 0 64 1;
+#X connect 29 0 65 1;
+#X connect 30 0 66 1;
+#X connect 31 0 57 2;
+#X connect 32 0 58 2;
+#X connect 33 0 59 2;
+#X connect 34 0 60 2;
+#X connect 35 0 61 2;
+#X connect 36 0 62 2;
+#X connect 37 0 63 2;
+#X connect 38 0 64 2;
+#X connect 39 0 65 2;
+#X connect 40 0 66 2;
+#X connect 41 0 57 3;
+#X connect 42 0 58 3;
+#X connect 43 0 59 3;
+#X connect 44 0 60 3;
+#X connect 45 0 61 3;
+#X connect 46 0 62 3;
+#X connect 47 0 63 3;
+#X connect 48 0 64 3;
+#X connect 49 0 65 3;
+#X connect 50 0 66 3;
+#X connect 54 0 56 0;
+#X connect 55 0 54 1;
+#X connect 67 0 54 0;
+#X coords 0 -1 1 1 150 315 1 60 70;

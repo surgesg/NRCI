@@ -1,0 +1,31 @@
+#N canvas 374 22 427 516 10;
+#X text 31 5 milo-transmit-handler;
+#X text 31 20 updated 1.9.2008;
+#X obj 31 177 OSCroute /adam /brent /chris /dale /david /glenn /greg
+/jerod /kevin /steve /bill /dylan /joel /jon;
+#X obj 31 130 net-dynamic-route;
+#X obj 31 350 net-pitch-report-stream;
+#X obj 138 403 net-duration-report-stream;
+#X obj 31 50 r dumpOSC;
+#X obj 245 435 net-onset-report;
+#X obj 31 283 routeOSC /pitch-request /duration-request /onset-request
+;
+#X connect 2 0 8 0;
+#X connect 2 1 8 0;
+#X connect 2 2 8 0;
+#X connect 2 3 8 0;
+#X connect 2 4 8 0;
+#X connect 2 5 8 0;
+#X connect 2 6 8 0;
+#X connect 2 7 8 0;
+#X connect 2 8 8 0;
+#X connect 2 9 8 0;
+#X connect 2 10 8 0;
+#X connect 2 11 8 0;
+#X connect 2 12 8 0;
+#X connect 2 13 8 0;
+#X connect 3 0 2 0;
+#X connect 6 0 3 0;
+#X connect 8 0 4 0;
+#X connect 8 1 5 0;
+#X connect 8 2 7 0;

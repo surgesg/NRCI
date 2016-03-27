@@ -1,0 +1,123 @@
+#N canvas 294 69 860 571 10;
+#X obj 304 111 OSCroute /adam /brent /chris /dale /david /glenn /greg
+/jerod /kevin /steve /bill /dylan /joel /jon;
+#X text 13 24 adam;
+#X text 12 41 brent;
+#X text 11 61 chris;
+#X text 12 80 dale;
+#X text 12 99 david;
+#X text 14 135 greg;
+#X text 12 173 kevin;
+#X text 12 193 steve;
+#X text 12 153 jerod;
+#X text 12 117 glenn;
+#X text 14 211 bill;
+#X text 12 228 dylan;
+#X text 13 246 joel;
+#X text 14 266 jon;
+#X floatatom 65 23 5 0 0 0 P adam-pitch-view nothing;
+#X floatatom 119 23 5 0 0 0 A adam-amp-view nothing;
+#X floatatom 172 23 5 0 0 0 D adam-duration-view nothing;
+#X obj 225 24 bng 15 250 50 0 nothing adam-rhythm-view R -10 7 0 10
+-262144 -1 -1;
+#X floatatom 65 42 5 0 0 0 P brent-pitch-view nothing;
+#X floatatom 119 42 5 0 0 0 A brent-amp-view nothing;
+#X floatatom 172 42 5 0 0 0 D brent-duration-view nothing;
+#X obj 225 43 bng 15 250 50 0 nothing brent-rhythm-view R -10 7 0 10
+-262144 -1 -1;
+#X floatatom 65 61 5 0 0 0 P chris-pitch-view nothing;
+#X floatatom 119 61 5 0 0 0 A chris-amp-view nothing;
+#X floatatom 172 61 5 0 0 0 D chris-duration-view nothing;
+#X obj 225 62 bng 15 250 50 0 nothing chris-rhythm-view R -10 7 0 10
+-262144 -1 -1;
+#X floatatom 65 80 5 0 0 0 P dale-pitch-view nothing;
+#X floatatom 119 80 5 0 0 0 A dale-amp-view nothing;
+#X floatatom 172 80 5 0 0 0 D dale-duration-view nothing;
+#X obj 225 81 bng 15 250 50 0 nothing dale-rhythm-view R -10 7 0 10
+-262144 -1 -1;
+#X floatatom 65 99 5 0 0 0 P david-pitch-view nothing;
+#X floatatom 119 99 5 0 0 0 A david-amp-view nothing;
+#X floatatom 172 99 5 0 0 0 D david-duration-view nothing;
+#X obj 225 100 bng 15 250 50 0 nothing david-rhythm-view R -10 7 0
+10 -262144 -1 -1;
+#X floatatom 65 118 5 0 0 0 P glenn-pitch-view nothing;
+#X floatatom 119 118 5 0 0 0 A glenn-amp-view nothing;
+#X floatatom 172 118 5 0 0 0 D glenn-duration-view nothing;
+#X obj 225 119 bng 15 250 50 0 nothing glenn-rhythm-view R -10 7 0
+10 -262144 -1 -1;
+#X floatatom 65 137 5 0 0 0 P greg-pitch-view nothing;
+#X floatatom 119 137 5 0 0 0 A greg-amp-view nothing;
+#X floatatom 172 137 5 0 0 0 D greg-duration-view nothing;
+#X obj 225 138 bng 15 250 50 0 nothing greg-rhythm-view R -10 7 0 10
+-262144 -1 -1;
+#X floatatom 65 156 5 0 0 0 P jerod-pitch-view nothing;
+#X floatatom 119 156 5 0 0 0 A jerod-amp-view nothing;
+#X floatatom 172 156 5 0 0 0 D jerod-duration-view nothing;
+#X obj 225 157 bng 15 250 50 0 nothing jerod-rhythm-view R -10 7 0
+10 -262144 -1 -1;
+#X floatatom 65 175 5 0 0 0 P kevin-pitch-view nothing;
+#X floatatom 119 175 5 0 0 0 A kevin-amp-view nothing;
+#X floatatom 172 175 5 0 0 0 D kevin-duration-view nothing;
+#X obj 225 176 bng 15 250 50 0 nothing kevin-rhythm-view R -10 7 0
+10 -262144 -1 -1;
+#X floatatom 65 194 5 0 0 0 P steve-pitch-view nothing;
+#X floatatom 119 194 5 0 0 0 A steve-amp-view nothing;
+#X floatatom 172 194 5 0 0 0 D steve-duration-view nothing;
+#X obj 225 195 bng 15 250 50 0 nothing steve-rhythm-view R -10 7 0
+10 -262144 -1 -1;
+#X floatatom 65 213 5 0 0 0 P bill-pitch-view nothing;
+#X floatatom 119 213 5 0 0 0 A bill-amp-view nothing;
+#X floatatom 172 213 5 0 0 0 D bill-duration-view nothing;
+#X obj 225 214 bng 15 250 50 0 nothing bill-rhythm-view R -10 7 0 10
+-262144 -1 -1;
+#X floatatom 65 232 5 0 0 0 P dylan-pitch-view nothing;
+#X floatatom 119 232 5 0 0 0 A dylan-amp-view nothing;
+#X floatatom 172 232 5 0 0 0 D dylan-duration-view nothing;
+#X obj 225 233 bng 15 250 50 0 nothing dylan-rhythm-view R -10 7 0
+10 -262144 -1 -1;
+#X floatatom 65 251 5 0 0 0 P joel-pitch-view nothing;
+#X floatatom 119 251 5 0 0 0 A joel-amp-view nothing;
+#X floatatom 172 251 5 0 0 0 D joel-duration-view nothing;
+#X obj 225 252 bng 15 250 50 0 nothing joel-rhythm-view R -10 7 0 10
+-262144 -1 -1;
+#X floatatom 65 269 5 0 0 0 P jon-pitch-view nothing;
+#X floatatom 119 269 5 0 0 0 A jon-amp-view nothing;
+#X floatatom 172 269 5 0 0 0 D jon-duration-view nothing;
+#X obj 225 270 bng 15 250 50 0 nothing jon-rhythm-view R -10 7 0 10
+-262144 -1 -1;
+#X text 30 298 net-view.pd;
+#X text 30 310 created 1.16.2008;
+#X text 29 326 visualizes network broadcast traffic;
+#X obj 304 72 OSCroute /all;
+#X obj 326 186 net-view-parse brent;
+#X obj 304 34 r dumpOSC;
+#X obj 304 159 net-view-parse adam;
+#X obj 349 213 net-view-parse chris;
+#X obj 372 241 net-view-parse dale;
+#X obj 395 268 net-view-parse david;
+#X obj 418 296 net-view-parse glenn;
+#X obj 441 322 net-view-parse greg;
+#X obj 464 350 net-view-parse jerod;
+#X obj 487 377 net-view-parse kevin;
+#X obj 510 405 net-view-parse steve;
+#X obj 533 432 net-view-parse bill;
+#X obj 556 460 net-view-parse dylan;
+#X obj 579 486 net-view-parse joel;
+#X obj 602 514 net-view-parse jon;
+#X connect 0 0 77 0;
+#X connect 0 1 75 0;
+#X connect 0 2 78 0;
+#X connect 0 3 79 0;
+#X connect 0 4 80 0;
+#X connect 0 5 81 0;
+#X connect 0 6 82 0;
+#X connect 0 7 83 0;
+#X connect 0 8 84 0;
+#X connect 0 9 85 0;
+#X connect 0 10 86 0;
+#X connect 0 11 87 0;
+#X connect 0 12 88 0;
+#X connect 0 13 89 0;
+#X connect 74 0 0 0;
+#X connect 76 0 74 0;
+#X coords 0 -1 1 1 242 278 1 10 10;

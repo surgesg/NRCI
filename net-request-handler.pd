@@ -1,0 +1,326 @@
+#N canvas 169 22 910 550 12;
+#X text 63 113 adam;
+#X text 62 130 brent;
+#X text 63 147 chris;
+#X text 64 163 dale;
+#X text 63 181 david;
+#X text 63 215 greg;
+#X text 63 249 kevin;
+#X text 63 266 steve;
+#X obj 102 115 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X text 62 232 jerod;
+#X text 121 96 a;
+#X text 139 96 d;
+#X obj 102 132 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 149 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 166 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 183 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 200 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 119 115 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 119 132 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 119 149 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 119 166 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 119 183 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 119 200 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 136 115 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 136 132 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 136 149 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 136 166 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 136 183 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 136 200 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 153 115 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 153 132 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 153 149 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 153 166 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 153 183 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 153 200 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X text 63 198 glenn;
+#X text 105 96 p;
+#X obj 488 238 iem_prepend;
+#X obj 562 205 r \$0-constructTwo;
+#X obj 488 180 r send;
+#X obj 173 115 hsl 100 15 1.27 127 0 0 empty adam-vu-meter empty -2
+-6 0 10 -262144 -1 -1 0 1;
+#X obj 173 132 hsl 100 15 1.27 127 0 0 empty brent-vu-meter empty -2
+-6 0 10 -262144 -1 -1 0 1;
+#X obj 173 149 hsl 100 15 1.27 127 0 0 empty chris-vu-meter empty -2
+-6 0 10 -262144 -1 -1 0 1;
+#X obj 173 166 hsl 100 15 1.27 127 0 0 empty dale-vu-meter empty -2
+-6 0 10 -262144 -1 -1 0 1;
+#X obj 102 217 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 234 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 251 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 268 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 119 217 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 119 234 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 119 251 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 119 268 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 136 217 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 136 234 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 136 251 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 136 268 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 153 217 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 153 234 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 153 251 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 153 268 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 285 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 302 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 319 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 102 336 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 119 285 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 119 302 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 119 319 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 119 336 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 136 285 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 136 302 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 136 319 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 136 336 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 153 285 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 153 302 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 153 319 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X obj 153 336 tgl 15 0 empty empty empty 0 -6 0 10 -262144 -1 -1 0
+1;
+#X text 63 283 bill;
+#X text 62 300 dylan;
+#X text 63 317 joel;
+#X text 63 334 jon;
+#X obj 173 183 hsl 100 15 1.27 127 0 0 empty david-vu-meter empty -2
+-6 0 10 -262144 -1 -1 0 1;
+#X obj 173 200 hsl 100 15 1.27 127 0 0 empty glenn-vu-meter empty -2
+-6 0 10 -262144 -1 -1 0 1;
+#X obj 173 217 hsl 100 15 1.27 127 0 0 empty greg-vu-meter empty -2
+-6 0 10 -262144 -1 -1 0 1;
+#X obj 173 234 hsl 100 15 1.27 127 0 0 empty jerod-vu-meter empty -2
+-6 0 10 -262144 -1 -1 0 1;
+#X obj 173 251 hsl 100 15 1.27 127 0 0 empty kevin-vu-meter empty -2
+-6 0 10 -262144 -1 -1 0 1;
+#X obj 173 268 hsl 100 15 1.27 127 0 0 empty steve-vu-meter empty -2
+-6 0 10 -262144 -1 -1 0 1;
+#X obj 173 285 hsl 100 15 1.27 127 0 0 empty bill-vu-meter empty -2
+-6 0 10 -262144 -1 -1 0 1;
+#X obj 173 302 hsl 100 15 1.27 127 0 0 empty dylan-vu-meter empty -2
+-6 0 10 -262144 -1 -1 0 1;
+#X obj 173 319 hsl 100 15 1.27 127 0 0 empty joel-vu-meter empty -2
+-6 0 10 -262144 -1 -1 0 1;
+#X obj 173 336 hsl 100 15 1.27 127 0 0 empty jon-vu-meter empty -2
+-6 0 10 -262144 -1 -1 0 1;
+#X text 490 451 updated 01.04.2008;
+#X text 491 466 with new usernames and new vu meters;
+#N canvas 224 30 446 611 make-send-receive 0;
+#X obj 2 192 iem_prepend;
+#X msg 146 -242 /adam;
+#X msg 161 -218 /brent;
+#X msg 176 -194 /chris;
+#X msg 191 -174 /dale;
+#X msg 207 -153 /david;
+#X msg 237 -112 /greg;
+#X msg 253 -89 /jared;
+#X msg 268 -67 /kevin;
+#X msg 283 -46 /steve;
+#X obj 2 220 s \$0-constructOne;
+#X msg 222 -134 /glenn;
+#X obj 2 55 symbol \$1;
+#X obj 2 79 unsymbol;
+#X obj 146 145 iem_prepend;
+#X msg 220 119 send;
+#X obj 2 -335 r name;
+#X obj 146 -268 select 0 1 2 3 4 5 6 7 8 9 10 11 12 13;
+#X msg 301 -25 /bill;
+#X msg 317 -3 /dylan;
+#X msg 335 18 /joel;
+#X msg 349 39 /jon;
+#X obj 62 3 r username;
+#X obj 2 -313 t b f b;
+#X connect 0 0 10 0;
+#X connect 1 0 14 0;
+#X connect 2 0 14 0;
+#X connect 3 0 14 0;
+#X connect 4 0 14 0;
+#X connect 5 0 14 0;
+#X connect 6 0 14 0;
+#X connect 7 0 14 0;
+#X connect 8 0 14 0;
+#X connect 9 0 14 0;
+#X connect 11 0 14 0;
+#X connect 12 0 13 0;
+#X connect 13 0 0 0;
+#X connect 14 0 0 1;
+#X connect 15 0 14 1;
+#X connect 16 0 23 0;
+#X connect 17 0 1 0;
+#X connect 17 1 2 0;
+#X connect 17 2 3 0;
+#X connect 17 3 4 0;
+#X connect 17 4 5 0;
+#X connect 17 5 11 0;
+#X connect 17 6 6 0;
+#X connect 17 7 7 0;
+#X connect 17 8 8 0;
+#X connect 17 9 9 0;
+#X connect 17 10 18 0;
+#X connect 17 11 19 0;
+#X connect 17 12 20 0;
+#X connect 17 13 21 0;
+#X connect 18 0 14 0;
+#X connect 19 0 14 0;
+#X connect 20 0 14 0;
+#X connect 21 0 14 0;
+#X connect 22 0 12 1;
+#X connect 23 0 12 0;
+#X connect 23 1 17 0;
+#X connect 23 2 15 0;
+#X restore 488 134 pd make-send-receive;
+#N canvas 325 41 496 348 add-type 0;
+#X obj 90 72 select 0 1 2 3;
+#X obj 90 232 iem_prepend;
+#X obj 164 202 r \$0-constructOne;
+#X obj 90 257 s \$0-constructTwo;
+#X obj 90 47 r type;
+#X msg 90 95 /pitch-request;
+#X msg 113 122 /amp-request;
+#X msg 137 145 /duration-request;
+#X msg 162 170 /onset-request;
+#X connect 0 0 5 0;
+#X connect 0 1 6 0;
+#X connect 0 2 7 0;
+#X connect 0 3 8 0;
+#X connect 1 0 3 0;
+#X connect 2 0 1 1;
+#X connect 4 0 0 0;
+#X connect 5 0 1 0;
+#X connect 6 0 1 0;
+#X connect 7 0 1 0;
+#X connect 8 0 1 0;
+#X restore 488 157 pd add-type;
+#X text 490 482 global username receive added 1.9.2008;
+#X obj 296 130 net-request-construct 0;
+#X obj 296 154 net-request-construct 1;
+#X obj 296 178 net-request-construct 2;
+#X obj 296 202 net-request-construct 3;
+#X obj 296 229 net-request-construct 4;
+#X obj 296 256 net-request-construct 5;
+#X obj 295 283 net-request-construct 6;
+#X obj 295 310 net-request-construct 7;
+#X obj 295 337 net-request-construct 8;
+#X obj 295 364 net-request-construct 9;
+#X obj 295 394 net-request-construct 10;
+#X obj 295 420 net-request-construct 11;
+#X obj 295 448 net-request-construct 12;
+#X obj 296 475 net-request-construct 13;
+#X obj 488 312 s sendOSC;
+#X text 157 96 o;
+#X connect 8 0 95 0;
+#X connect 12 0 96 0;
+#X connect 13 0 97 0;
+#X connect 14 0 98 0;
+#X connect 15 0 99 0;
+#X connect 16 0 100 0;
+#X connect 17 0 95 1;
+#X connect 18 0 96 1;
+#X connect 19 0 97 1;
+#X connect 20 0 98 1;
+#X connect 21 0 99 1;
+#X connect 22 0 100 1;
+#X connect 23 0 95 2;
+#X connect 24 0 96 2;
+#X connect 25 0 97 2;
+#X connect 26 0 98 2;
+#X connect 27 0 99 2;
+#X connect 28 0 100 2;
+#X connect 29 0 95 3;
+#X connect 30 0 96 3;
+#X connect 31 0 97 3;
+#X connect 32 0 98 3;
+#X connect 33 0 99 3;
+#X connect 34 0 100 3;
+#X connect 37 0 109 0;
+#X connect 38 0 37 1;
+#X connect 39 0 37 0;
+#X connect 44 0 101 0;
+#X connect 45 0 102 0;
+#X connect 46 0 103 0;
+#X connect 47 0 104 0;
+#X connect 48 0 101 1;
+#X connect 49 0 102 1;
+#X connect 50 0 103 1;
+#X connect 51 0 104 1;
+#X connect 52 0 101 2;
+#X connect 53 0 102 2;
+#X connect 54 0 103 2;
+#X connect 55 0 104 2;
+#X connect 56 0 101 3;
+#X connect 57 0 102 3;
+#X connect 58 0 103 3;
+#X connect 59 0 104 3;
+#X connect 60 0 105 0;
+#X connect 61 0 106 0;
+#X connect 62 0 107 0;
+#X connect 63 0 108 0;
+#X connect 64 0 105 1;
+#X connect 65 0 106 1;
+#X connect 66 0 107 1;
+#X connect 67 0 108 1;
+#X connect 68 0 105 2;
+#X connect 69 0 106 2;
+#X connect 70 0 107 2;
+#X connect 71 0 108 2;
+#X connect 72 0 105 3;
+#X connect 73 0 106 3;
+#X connect 74 0 107 3;
+#X connect 75 0 108 3;
+#X coords 0 -1 1 1 217 278 1 60 75;

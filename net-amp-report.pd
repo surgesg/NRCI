@@ -1,0 +1,22 @@
+#N canvas 147 76 856 456 10;
+#X obj 45 27 inlet~;
+#X text 91 27 audio signal L;
+#X obj 192 28 inlet~;
+#X text 239 28 audio signal R;
+#X obj 338 28 inlet;
+#X obj 338 392 outlet;
+#X obj 192 130 env~ 1024;
+#X obj 192 107 *~ 0.5;
+#X obj 338 358 float;
+#X text 622 194 greg surges;
+#X text 388 392 output [string \, float] sounding/silence \, avg. dB
+;
+#X text 377 27 [bang] - to trigger message output;
+#X text 518 179 milo-amp-report.pd;
+#X text 519 195 updated 12.27.07;
+#X connect 0 0 7 0;
+#X connect 2 0 7 0;
+#X connect 4 0 8 0;
+#X connect 6 0 8 1;
+#X connect 7 0 6 0;
+#X connect 8 0 5 0;

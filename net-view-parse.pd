@@ -1,0 +1,17 @@
+#N canvas 106 42 450 300 10;
+#X obj 27 25 inlet;
+#X text 265 11 net-view-parse.pd;
+#X text 266 27 created 1.16.2008;
+#X obj 27 157 s \$1-pitch-view;
+#X obj 102 184 s \$1-amp-view;
+#X obj 178 210 s \$1-duration-view;
+#X msg 254 109 bang;
+#X obj 254 240 s \$1-rhythm-view;
+#X obj 27 53 OSCroute /pitch-report /amp-report /duration-report /onset-report
+;
+#X connect 0 0 8 0;
+#X connect 6 0 7 0;
+#X connect 8 0 3 0;
+#X connect 8 1 4 0;
+#X connect 8 2 5 0;
+#X connect 8 3 6 0;
